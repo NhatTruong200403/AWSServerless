@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dọn dẹp tài nguyên on Serverless API Gateway với Advanced Security và Rate Limiting</title>
-    <link>https://NhatTruong200403.github.io/AWSServerless/vi/9-clear/</link>
+    <link>/vi/9-clear/</link>
     <description>Recent content in Dọn dẹp tài nguyên on Serverless API Gateway với Advanced Security và Rate Limiting</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://NhatTruong200403.github.io/AWSServerless/vi/9-clear/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/vi/9-clear/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

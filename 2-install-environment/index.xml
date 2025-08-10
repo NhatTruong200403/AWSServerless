@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Environment Setup on Serverless API Gateway And Advanced Security And Rate Limiting.</title>
-    <link>https://NhatTruong200403.github.io/AWSServerless/2-install-environment/</link>
+    <link>/2-install-environment/</link>
     <description>Recent content in Environment Setup on Serverless API Gateway And Advanced Security And Rate Limiting.</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://NhatTruong200403.github.io/AWSServerless/2-install-environment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/2-install-environment/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
