@@ -2,158 +2,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/vi/1-introduction/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/1-introduction/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduction/"
+                href="https://NhatTruong200403.github.io/AWSServerless/1-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduction/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/1-introduction/"
                 />
   </url><url>
-    <loc>/vi/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://NhatTruong200403.github.io/AWSServerless/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/"
                 />
   </url><url>
-    <loc>/vi/2-install-environment/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/2-install-environment/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-install-environment/"
+                href="https://NhatTruong200403.github.io/AWSServerless/2-install-environment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-install-environment/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/2-install-environment/"
                 />
   </url><url>
-    <loc>/vi/3-create-project/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/3-create-project/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-create-project/"
+                href="https://NhatTruong200403.github.io/AWSServerless/3-create-project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-create-project/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/3-create-project/"
                 />
   </url><url>
-    <loc>/vi/4-create-serverless/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/4-create-serverless/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-create-serverless/"
+                href="https://NhatTruong200403.github.io/AWSServerless/4-create-serverless/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-create-serverless/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/4-create-serverless/"
                 />
   </url><url>
-    <loc>/vi/5-create-lambda/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/5-create-lambda/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-create-lambda/"
+                href="https://NhatTruong200403.github.io/AWSServerless/5-create-lambda/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-create-lambda/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/5-create-lambda/"
                 />
   </url><url>
-    <loc>/vi/6-deploy-stack-to-aws/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/6-deploy-stack-to-aws/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/6-deploy-stack-to-aws/"
+                href="https://NhatTruong200403.github.io/AWSServerless/6-deploy-stack-to-aws/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/6-deploy-stack-to-aws/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/6-deploy-stack-to-aws/"
                 />
   </url><url>
-    <loc>/vi/7-monitoring-configuration-and-documentation-api/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/7-monitoring-configuration-and-documentation-api/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/7-monitoring-configuration-and-documentation-api/"
+                href="https://NhatTruong200403.github.io/AWSServerless/7-monitoring-configuration-and-documentation-api/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/7-monitoring-configuration-and-documentation-api/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/7-monitoring-configuration-and-documentation-api/"
                 />
   </url><url>
-    <loc>/vi/8-testing-postman/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/8-testing-postman/</loc>
     <lastmod>2025-08-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/8-testing-postman/"
+                href="https://NhatTruong200403.github.io/AWSServerless/8-testing-postman/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/8-testing-postman/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/8-testing-postman/"
                 />
   </url><url>
-    <loc>/vi/9-clear/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/9-clear/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/9-clear/"
+                href="https://NhatTruong200403.github.io/AWSServerless/9-clear/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/9-clear/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/9-clear/"
                 />
   </url><url>
-    <loc>/vi/categories/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://NhatTruong200403.github.io/AWSServerless/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/categories/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/categories/"
                 />
   </url><url>
-    <loc>/vi/tags/</loc>
+    <loc>https://NhatTruong200403.github.io/AWSServerless/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://NhatTruong200403.github.io/AWSServerless/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/tags/"
+                href="https://NhatTruong200403.github.io/AWSServerless/vi/tags/"
                 />
   </url>
 </urlset>

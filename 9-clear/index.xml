@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resource Cleanup on Serverless API Gateway And Advanced Security And Rate Limiting.</title>
-    <link>/9-clear/</link>
+    <link>https://NhatTruong200403.github.io/AWSServerless/9-clear/</link>
     <description>Recent content in Resource Cleanup on Serverless API Gateway And Advanced Security And Rate Limiting.</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/9-clear/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://NhatTruong200403.github.io/AWSServerless/9-clear/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
