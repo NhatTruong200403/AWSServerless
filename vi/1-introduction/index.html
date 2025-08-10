@@ -12,21 +12,21 @@
     <title>Giới thiệu :: Serverless API Gateway với Advanced Security và Rate Limiting</title>
 
     
-    <link href="/AWSServerless/css/nucleus.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/fontawesome-all.min.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/hybrid.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/featherlight.min.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/perfect-scrollbar.min.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/auto-complete.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/atom-one-dark-reasonable.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/theme.css?1754840993" rel="stylesheet">
-    <link href="/AWSServerless/css/hugo-theme.css?1754840993" rel="stylesheet">
+    <link href="/AWSServerless/css/nucleus.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/fontawesome-all.min.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/hybrid.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/featherlight.min.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/perfect-scrollbar.min.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/auto-complete.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/atom-one-dark-reasonable.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/theme.css?1754841662" rel="stylesheet">
+    <link href="/AWSServerless/css/hugo-theme.css?1754841662" rel="stylesheet">
     
-    <link href="/AWSServerless/css/theme-workshop.css?1754840993" rel="stylesheet">
+    <link href="/AWSServerless/css/theme-workshop.css?1754841662" rel="stylesheet">
     
     
 
-    <script src="/AWSServerless/js/jquery-3.3.1.min.js?1754840993"></script>
+    <script src="/AWSServerless/js/jquery-3.3.1.min.js?1754841662"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/AWSServerless/js/lunr.min.js?1754840993"></script>
-<script type="text/javascript" src="/AWSServerless/js/auto-complete.js?1754840993"></script>
+<script type="text/javascript" src="/AWSServerless/js/lunr.min.js?1754841662"></script>
+<script type="text/javascript" src="/AWSServerless/js/auto-complete.js?1754841662"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/NhatTruong200403.github.io\/AWSServerless\/\/vi";
     
 </script>
-<script type="text/javascript" src="/AWSServerless/js/search.js?1754840993"></script>
+<script type="text/javascript" src="/AWSServerless/js/search.js?1754841662"></script>
 
     
   </div>
@@ -264,13 +264,13 @@
  
   
     
-    <li data-nav-id="/AWSServerless/vi/8-testing-postman/" title="Testing Với Postman, Curl và Unit Test" class="dd-item 
+    <li data-nav-id="/AWSServerless/vi/8-testing-postman/" title="Testing Với Postman và Unit Test" class="dd-item 
         
         
         
         ">
       <a href="/AWSServerless/vi/8-testing-postman/">
-           <b> 8. </b> Testing Với Postman, Curl và Unit Test
+           <b> 8. </b> Testing Với Postman và Unit Test
           
             <i class="fas fa-check read-icon"></i>
           
@@ -465,7 +465,7 @@
         <li><a href="#bối-cảnh-và-động-lực">Bối cảnh và Động lực</a></li>
       </ul>
     </li>
-    <li><a href="#final"><img src="/images/1/Final.png" alt="Final"></a></li>
+    <li><a href="#final"><img src="https://NhatTruong200403.github.io/AWSServerless/images/1/Final.png" alt="Final"></a></li>
     <li><a href="#lợi-ích-chính-của-serverless-api-gateway-với-bảo-mật-nâng-cao-và-giới-hạn-tần-suất">Lợi ích chính của Serverless API Gateway với Bảo mật Nâng cao và Giới hạn Tần suất</a></li>
   </ul>
 </nav>
@@ -497,7 +497,7 @@
 <p>Trong hệ sinh thái ứng dụng dựa trên API ngày nay, các tổ chức cần những giao diện ứng dụng (API) có tính sẵn sàng cao, bảo mật mạnh mẽ và khả năng xử lý khối lượng truy cập biến động mà không phải quản lý hạ tầng vật lý. Đảm bảo hiệu suất tối ưu đồng thời bảo vệ hệ thống trước lạm dụng, tấn công độc hại và truy cập trái phép là một thách thức quan trọng đối với triển khai API hiện đại.</p>
 <p>Dự án <strong>&ldquo;Serverless API Gateway with Advanced Security and Rate Limiting&rdquo;</strong> giới thiệu một giải pháp API serverless vừa mở rộng linh hoạt vừa an toàn, tận dụng sức mạnh của <strong>Amazon API Gateway</strong>, <strong>AWS Lambda</strong> và bộ dịch vụ bảo mật của AWS. Kiến trúc này được thiết kế để duy trì hiệu suất ổn định dưới lưu lượng truy cập cao, đồng thời triển khai các biện pháp bảo mật đa lớp và giới hạn tần suất yêu cầu (rate limiting) thông minh để giữ hệ thống luôn ổn định.</p>
 <p>Các yêu cầu từ client được định tuyến qua <strong>Amazon API Gateway</strong>, nơi áp dụng <strong>usage plan</strong>, <strong>API key</strong> và các chính sách giới hạn tần suất để kiểm soát lưu lượng. Xác thực và phân quyền được quản lý thông qua <strong>Amazon Cognito</strong> hoặc <strong>JWT token</strong>, trong khi <strong>AWS WAF</strong> cung cấp khả năng bảo vệ nâng cao trước DDoS, bot và payload độc hại. Toàn bộ logic xử lý API được thực thi bởi <strong>AWS Lambda</strong> dưới dạng stateless function, dữ liệu được lưu trữ trong <strong>Amazon DynamoDB</strong> hoặc <strong>Aurora Serverless</strong>. Ghi log, thu thập số liệu và truy vết yêu cầu được thực hiện qua <strong>Amazon CloudWatch</strong> và <strong>AWS X-Ray</strong>.</p>
-<h2 id="final"><img src="/images/1/Final.png" alt="Final"></h2>
+<h2 id="final"><img src="https://NhatTruong200403.github.io/AWSServerless/images/1/Final.png" alt="Final"></h2>
 <h2 id="lợi-ích-chính-của-serverless-api-gateway-với-bảo-mật-nâng-cao-và-giới-hạn-tần-suất">Lợi ích chính của Serverless API Gateway với Bảo mật Nâng cao và Giới hạn Tần suất</h2>
 <p>Việc tích hợp các dịch vụ AWS như API Gateway, Lambda, DynamoDB, CloudWatch mang lại:</p>
 <ul>
@@ -713,19 +713,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/AWSServerless/js/clipboard.min.js?1754840993"></script>
-    <script src="/AWSServerless/js/perfect-scrollbar.min.js?1754840993"></script>
-    <script src="/AWSServerless/js/perfect-scrollbar.jquery.min.js?1754840993"></script>
-    <script src="/AWSServerless/js/jquery.sticky.js?1754840993"></script>
-    <script src="/AWSServerless/js/featherlight.min.js?1754840993"></script>
-    <script src="/AWSServerless/js/highlight.pack.js?1754840993"></script>
+    <script src="/AWSServerless/js/clipboard.min.js?1754841662"></script>
+    <script src="/AWSServerless/js/perfect-scrollbar.min.js?1754841662"></script>
+    <script src="/AWSServerless/js/perfect-scrollbar.jquery.min.js?1754841662"></script>
+    <script src="/AWSServerless/js/jquery.sticky.js?1754841662"></script>
+    <script src="/AWSServerless/js/featherlight.min.js?1754841662"></script>
+    <script src="/AWSServerless/js/highlight.pack.js?1754841662"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/AWSServerless/js/modernizr.custom-3.6.0.js?1754840993"></script>
-    <script src="/AWSServerless/js/learn.js?1754840993"></script>
-    <script src="/AWSServerless/js/hugo-learn.js?1754840993"></script>
+    <script src="/AWSServerless/js/modernizr.custom-3.6.0.js?1754841662"></script>
+    <script src="/AWSServerless/js/learn.js?1754841662"></script>
+    <script src="/AWSServerless/js/hugo-learn.js?1754841662"></script>
 
-    <link href="/AWSServerless/mermaid/mermaid.css?1754840993" rel="stylesheet" />
-    <script src="/AWSServerless/mermaid/mermaid.js?1754840993"></script>
+    <link href="/AWSServerless/mermaid/mermaid.css?1754841662" rel="stylesheet" />
+    <script src="/AWSServerless/mermaid/mermaid.js?1754841662"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
