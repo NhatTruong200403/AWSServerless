@@ -12,7 +12,7 @@ var getUrlParameter = function getUrlParameter(sPageURL) {
       }
       return obj;
     } else {
-      return undefined;
+      return {};  // Thay vì undefined, trả về object rỗng để tránh lỗi khi truy cập thuộc tính
     }
 };
 
@@ -20,11 +20,11 @@ var getUrlParameter = function getUrlParameter(sPageURL) {
 var images = $("div#body-inner img").not(".inline");
 // Wrap image inside a featherlight (to get a full size view in a popup)
 images.wrap(function(){
-  var image =$(this);
+  var image = $(this);
   var o = getUrlParameter(image[0].src);
   var f = o['featherlight'];
   // IF featherlight is false, do not use feather light
-  if (f != 'false') {
+  if (typeof f === 'undefined' || f != 'false') {  // Thêm kiểm tra typeof để tránh lỗi nếu f undefined
     if (!image.parent("a").length) {
       return "<a href='" + image[0].src + "' data-featherlight='image'></a>";
     }
@@ -35,7 +35,7 @@ images.wrap(function(){
 images.each(function(index){
   var image = $(this)
   var o = getUrlParameter(image[0].src);
-  if (typeof o !== "undefined") {
+  if (typeof o !== "undefined" && Object.keys(o).length > 0) {  // Cập nhật kiểm tra để tránh trường hợp object rỗng
     var h = o["height"];
     var w = o["width"];
     var c = o["classes"];
@@ -62,7 +62,7 @@ images.each(function(index){
   }
 });
 
-// Stick the top to the top of the screen when  scrolling
+// Stick the top to the top of the screen when scrolling
 $(document).ready(function(){
   $("#top-bar").sticky({topSpacing:0, zIndex: 1000});
 });
